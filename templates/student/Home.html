@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        h1{
+            color:white;
+            background-color: teal;
+
+        }
+    </style>
+</head>
+<body>
+<a href="/student/aboutus"> Aboutus</a>
+<br/>
+<a href="{% url 'student-aboutus' %}"> Aboutus</a> |
+<a href="{% url 'student-contactus' %}"> ContactUs</a>
+
+  <h1> Home page of Student</h1>
+</body>
+</html>
