@@ -22,6 +22,7 @@ from hello.views import contactus
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/',include('hello.urls')),
-    path('student/',include("student.urls"))
+    path('student/',include("student.urls")),
+    path("layout/",include("layoutdemo.urls"))
    # path('contact/',contactus)
 ]
