@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>viewtask</title>
+</head>
+<body>
+        <h3><a href="{% url 'task-new' %}">Add Task</a></h3>
+        <h1> Task </h1>
+        <ul>
+            {% for task in tasklist %}
+            <li>{{ task }}</li>
+            {% endfor %}
+        </ul>
+</body>
+</html>

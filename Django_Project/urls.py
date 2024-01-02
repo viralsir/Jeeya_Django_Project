@@ -24,6 +24,6 @@ urlpatterns = [
     path('hello/',include('hello.urls')),
     path('student/',include("student.urls")),
     path("layout/",include("layoutdemo.urls")),
-    path("newyear/",include("newyear.urls"))
-   # path('contact/',contactus)
+    path("newyear/",include("newyear.urls")),
+    path('task/',include("task.urls"))
 ]
